@@ -1,7 +1,4 @@
-.App {
-  text-align: center;
-}
-
+ 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,19 +10,33 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg{
+  background-color: #343A40;
 }
-
-.App-link {
-  color: #61dafb;
+.card{
+  margin-left: 70px;
+}
+.skil{
+  text-align: center;
+  color: aliceblue;
+  border: 1px solid rgb(218, 218, 218);
+}
+.bottom{
+  text-align: center;
+  color: aliceblue;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 10px;
+}
+.sms{
+  text-align: center;
+  color: aliceblue;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 10px;
+}
+.sms:hover{
+  color: goldenrod;
 }
 
 @keyframes App-logo-spin {
